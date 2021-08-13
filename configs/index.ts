@@ -1,0 +1,17 @@
+export { axios } from "./axios.config";
+export { auth } from "./auth.config";
+export { build } from "./build.config";
+export { buildModules } from "./buildModules.config";
+export { css } from "./css.config";
+export { head } from "./head.config";
+export { i18n } from "./i18n.config";
+export { loading } from "./loading.config";
+export { modules } from "./modules.config";
+export { plugins } from "./plugins.config";
+export { publicRuntimeConfig } from "./publicRuntimeConfig.config";
+export { privateRuntimeConfig } from "./privateRuntimeConfig.config";
+export { proxy } from "./proxy.config";
+export { router } from "./router.config";
+export { server } from "./server.config";
+export { toast } from "./toast.config";
+export { vuetify } from "./vuetify.config";

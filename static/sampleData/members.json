@@ -1,0 +1,114 @@
+{
+  "members": [
+    {
+      "id": "1",
+      "name": "Zaini bin Ramli",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Shafie bin Yunus",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Muhammad Affiq bin Zaini",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Abu Bakar Ali",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Ahmad Albab",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Ramli bin Puteh",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Aziz bin Satar",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Khalid bin Isa",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Yusuf bin Ibrahim",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Muhammad Shamsul",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Muhammad Farid bin Faisal",
+      "icNo": "643423-12-2343",
+      "address": "86G, Jalan Pandan Indah 1/19, Pandan Indah, 55100 Kuala Lumpur",
+      "dependants": [
+        { "name": "Affiq Zaini", "icNo": "960613-26-5027" },
+        { "name": "Adeeb Zaini", "icNo": "981212-10-6743" }
+      ]
+    }
+  ]
+}
