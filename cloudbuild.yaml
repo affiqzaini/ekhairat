@@ -8,3 +8,4 @@ steps:
 options:
   logging: CLOUD_LOGGING_ONLY
 images: ['gcr.io/ekhairat-staging/server']
+timeout: 1200s
