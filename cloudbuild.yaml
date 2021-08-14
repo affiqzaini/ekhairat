@@ -1,13 +1,13 @@
 steps: 
-  # build container
-  - name: 'gcr.io/cloud-builders/docker'
+# build container
+- name: 'gcr.io/cloud-builders/docker'
   # gcr.io/project-name(from gcr)/container-name(can give new name)
-    args: ['build', '--network=cloudbuild', '-t', 'gcr.io/ekhairat-staging/server']
-    # push the container to the container registry
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/ekhairat-staging/server']
-    # Deploy image to cloud run
-  - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['run', 'deploy', 'server', '--image', 'gcr.io/ekhairat-staging/server', '--region', 'asia-southeast1', '--platform','managed', '--allow-unauthenticated']
-  images: 
+  args: ['build', '--network=cloudbuild', '-t', 'gcr.io/ekhairat-staging/server']
+  # push the container to the container registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/ekhairat-staging/server']
+  # Deploy image to cloud run
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['run', 'deploy', 'server', '--image', 'gcr.io/ekhairat-staging/server', '--region', 'asia-southeast1', '--platform','managed', '--allow-unauthenticated']
+images: 
   -  'gcr.io/ekhairat-staging/server'
