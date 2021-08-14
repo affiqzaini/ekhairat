@@ -1,11 +1,10 @@
 steps: 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '--network=cloudbuild', '-t', 'gcr.io/ekhairat-staging/server']
+  args: ['build', '-t', 'gcr.io/ekhairat-staging/server', '.']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/ekhairat-staging/server']
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['run', 'deploy', 'server', '--image', 'gcr.io/ekhairat-staging/server', '--region', 'asia-southeast1', '--platform','managed', '--allow-unauthenticated']
 options:
   logging: CLOUD_LOGGING_ONLY
-images: 
-  -  'gcr.io/ekhairat-staging/server'
+images: ['gcr.io/ekhairat-staging/server']
