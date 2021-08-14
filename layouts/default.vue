@@ -26,11 +26,7 @@ import AppBar from "../components/Layout/AppBar.vue";
     MobileNavBar,
   },
 })
-export default class LayoutDefault extends Vue {
-  mounted() {
-    console.log(this.$vuetify.breakpoint.smAndUp);
-  }
-}
+export default class LayoutDefault extends Vue {}
 </script>
 
 <style lang="scss" scoped>

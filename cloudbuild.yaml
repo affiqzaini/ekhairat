@@ -1,0 +1,12 @@
+steps: 
+  # build container
+  - name: ''
+    args: []
+    # push the container to the container registry
+  - name: ""
+    args: []
+    # Deploy image to cloud run
+  - name: ""
+    args: []
+  images: 
+  - 

@@ -21,8 +21,8 @@ import {
 import { NuxtConfig } from "@nuxt/types";
 
 const config: NuxtConfig = {
-  target: "static",
-  ssr: false,
+  target: "server",
+  ssr: true,
   auth,
   axios,
   build,
