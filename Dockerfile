@@ -4,7 +4,7 @@ FROM node:12
 #create the work direcctory in the container
 WORKDIR /src/app
 
-COPY package*.json
+COPY package*.json ./
 RUN npm install
 
 COPY . .
