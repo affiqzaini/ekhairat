@@ -14,7 +14,7 @@ RUN npm install
 
 RUN npm cache clean --force
 
-EXPOSE 3030
+EXPOSE 8080:8080
 
 #build production app
 RUN npm run build
